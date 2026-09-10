@@ -1,0 +1,67 @@
+/* Total Spectrum Health — base styles (placeholder) */
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #2a7f62;
+  --max-width: 960px;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.site-nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.hero {
+  padding: 2rem 0;
+}
+
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  border-top: 1px solid #e5e5e5;
+  color: #666;
+  font-size: 0.9rem;
+}
