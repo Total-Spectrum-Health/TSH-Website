@@ -1,9 +1,33 @@
-/* Total Spectrum Health — base styles (placeholder) */
+/* Total Spectrum Health — base styles
+   Palette pulled from the TSH logo marks in assets/images/:
+   navy/blue range for text and structure, cyan for accents,
+   the coral-to-peach "sunrise" gradient reserved for calls to action. */
 
 :root {
   --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-accent: #2a7f62;
+  --color-bg-alt: #f4f9fb;
+  --color-text: #1a2733;
+  --color-muted: #56646f;
+  --color-border: #e2e9ee;
+
+  --color-navy-900: #0d1d4f;
+  --color-navy-800: #10426b;
+  --color-navy-700: #19498c;
+  --color-blue-600: #1b5c8b;
+  --color-cyan-600: #2897c3;
+  --color-cyan-400: #2eaed9;
+  --color-cyan-300: #77cbe0;
+
+  --color-coral-700: #99432f;
+  --color-coral-600: #c7634c;
+  --color-coral-400: #e68866;
+  --color-peach-300: #fbd08a;
+  --color-peach-200: #ffde91;
+  --gradient-sunrise: linear-gradient(135deg, var(--color-coral-600) 0%, var(--color-coral-400) 45%, var(--color-peach-300) 80%, var(--color-peach-200) 100%);
+
+  --color-accent: var(--color-navy-800);
+  --color-accent-light: var(--color-cyan-600);
+
   --max-width: 960px;
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
@@ -27,14 +51,23 @@ body {
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem 1.5rem;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   font-weight: 700;
   font-size: 1.15rem;
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--color-navy-900);
+}
+
+.brand img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .site-nav a {
@@ -53,15 +86,194 @@ body {
   padding: 2rem 1.5rem;
 }
 
-.hero {
-  padding: 2rem 0;
-}
-
 .site-footer {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 2rem 1.5rem;
-  border-top: 1px solid #e5e5e5;
-  color: #666;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
   font-size: 0.9rem;
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.btn-primary {
+  background: var(--color-coral-400);
+  color: var(--color-navy-900);
+  box-shadow: 0 6px 18px rgba(153, 67, 47, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(153, 67, 47, 0.4);
+}
+
+.btn-outline {
+  border: 2px solid var(--color-navy-800);
+  color: var(--color-navy-800);
+  background: transparent;
+  padding: calc(0.85rem - 2px) calc(1.75rem - 2px);
+}
+
+.btn-outline:hover {
+  background: var(--color-navy-800);
+  color: #fff;
+}
+
+/* Hero */
+
+.hero {
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+  padding: 3.5rem 1.5rem 3rem;
+}
+
+.hero-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1 1 320px;
+}
+
+.hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-cyan-600);
+  margin: 0 0 0.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  line-height: 1.15;
+  margin: 0 0 0.75rem;
+  color: var(--color-navy-900);
+}
+
+.hero .lede {
+  font-size: 1.15rem;
+  color: var(--color-muted);
+  max-width: 36rem;
+  margin: 0 0 1.75rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.hero-art {
+  flex: 0 1 260px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-art img {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+}
+
+/* Content sections */
+
+.content-section {
+  padding: 3rem 1.5rem;
+}
+
+.content-section.alt {
+  background: var(--color-bg-alt);
+}
+
+.content-section .inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.content-section h2 {
+  color: var(--color-navy-900);
+  font-size: 1.75rem;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.6rem;
+  position: relative;
+}
+
+.content-section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--color-cyan-600), var(--color-navy-700));
+}
+
+.content-section p {
+  margin: 0 0 1.1rem;
+}
+
+.content-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Call-to-action banner */
+
+.cta-banner {
+  background: linear-gradient(135deg, var(--color-navy-900) 0%, var(--color-navy-800) 55%, var(--color-blue-600) 100%);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.cta-banner h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+
+.cta-banner p {
+  margin: 0 0 1.5rem;
+  color: #cfe3ee;
+}
+
+.cta-banner .btn-outline {
+  border-color: #fff;
+  color: #fff;
+}
+
+.cta-banner .btn-outline:hover {
+  background: #fff;
+  color: var(--color-navy-900);
+}
+
+@media (max-width: 640px) {
+  .hero-inner {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
 }

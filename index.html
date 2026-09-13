@@ -3,48 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="robots" content="noindex" />
-  <title>Total Spectrum Health — Under Construction</title>
+  <meta name="description" content="Total Spectrum Health is an integrative psychiatry practice led by Dr. Stone, treating children, adolescents, and adults by finding the root cause of psychiatric symptoms." />
+  <title>Total Spectrum Health — Integrative Psychiatry</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <style>
-    :root { --accent: #2a7f62; }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.5rem;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.6;
-      color: #1a1a1a;
-      background: #f7f9f8;
-    }
-    .card {
-      max-width: 32rem;
-      text-align: center;
-    }
-    .logo {
-      width: 56px;
-      height: 56px;
-      margin-bottom: 1.5rem;
-    }
-    h1 {
-      font-size: 1.6rem;
-      margin: 0 0 0.75rem;
-    }
-    p {
-      margin: 0;
-      color: #555;
-    }
-  </style>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <main class="card">
-    <img class="logo" src="assets/favicon.svg" alt="Total Spectrum Health" />
-    <h1>Total Spectrum Health</h1>
-    <p>This site is temporarily under construction. Please check back soon.</p>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/images/TSH%20Main%20Logo%20(NT).svg" alt="" />
+      Total Spectrum Health
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Integrative Psychiatry</p>
+          <h1>Total Spectrum Health</h1>
+          <p class="lede">Whole-person, root-cause psychiatric care for children, adolescents, and adults.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contact.html">Schedule a Consultation</a>
+            <a class="btn btn-outline" href="services.html">Our Services</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/images/TSH%20Main%20Logo%20(NT).svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="inner">
+        <h2>About Dr. Stone</h2>
+        <p>Dr. Stone, formerly Dr. Blanchard, is an integrative psychiatrist. Her approach is nontraditional: she practices first as a medical doctor and second as a psychiatrist, treating children, adolescents, and adults. This means she takes into consideration the entire health of a patient first, not just the psychiatric symptoms, and then provides the best possible treatment for the patient's overall health and mental well-being.</p>
+        <p>Dr. Stone is a double board-certified DO (Doctor of Osteopathic Medicine). This degree requires an additional 200 hours (roughly 2 years) of education and training beyond that of an MD (Doctor of Allopathic Medicine), including an extra year of general medicine practice after graduation. DOs also hold a different philosophy than MDs: that the body is inherently able to heal itself, sometimes it just needs a little help.</p>
+      </div>
+    </section>
+
+    <section class="content-section alt">
+      <div class="inner">
+        <h2>Our Philosophy</h2>
+        <p>We believe in preventative medicine. Conventional (MD) training focuses on the organs, their illnesses, and treating those illnesses after the fact. Our training also covers how illness in one part of the body affects other areas, and how the body's connective tissues interact and influence overall health. We have extra training in alternative approaches to preventing, treating, and maintaining health, including the use of vitamins and supplements. Our goal is whole body wellness.</p>
+        <p>Psychiatry has traditionally been based on symptoms. Researchers study many patients with the same illness to identify a list of common symptoms, then use that list as diagnostic criteria for each mental illness. These lists don't account for where an illness originates, and the same symptoms can arise from many different underlying causes. Emerging research suggests that mental illness is linked to a combination of many factors, including hormonal imbalances, genetic factors, and nutrient deficiencies. Conventional psychiatric treatment addresses symptoms without addressing the underlying cause. Other medical conditions, including certain infections, can also produce psychiatric symptoms.</p>
+        <p>Dr. Stone believes in finding the root causes of psychiatric symptoms and addressing them directly, with the long term goal of restoring the brain to optimal health. Many conventional approaches focus on managing symptoms with medication indefinitely. Masking symptoms so the brain can function is not the same as resolving why those symptoms exist in the first place. Our goal is to help your brain work at its full potential.</p>
+        <p>While medication may be needed initially for stabilization, our overall goal is to help the brain regulate its own chemistry, so patients can move toward the smallest effective dose or, when appropriate, no medication at all.</p>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <h2>Ready to get started?</h2>
+      <p>Schedule a consultation with Dr. Stone and take the first step toward whole body wellness.</p>
+      <a class="btn btn-outline" href="contact.html">Schedule a Consultation</a>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Total Spectrum Health. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
