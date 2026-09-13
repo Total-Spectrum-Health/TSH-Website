@@ -1,6 +1,6 @@
 # TSH Home Content — Revised
 
-Dr. Stone, formerly Dr. Blanchard, is an integrative psychiatrist. Her approach is nontraditional: she practices first as a medical doctor and second as a psychiatrist, caring for children, adolescents, and adults.
+Dr. Stone, formerly Dr. Blanchard, is an integrative psychiatrist. Her approach is nontraditional: she practices first as a medical doctor and second as a psychiatrist, caring for children, adolescents, and adults. This means she takes into consideration the entire health of a patient first, not just the psychiatric symptoms, and then provides the best possible treatment for the patient's overall health and mental well-being.
 
 Dr. Stone is a DO (Doctor of Osteopathic Medicine). This degree requires additional training beyond an MD (Doctor of Allopathic Medicine), including more hands on training during medical school and an extra year of general medicine practice after graduation. DOs also hold a different philosophy than MDs: that the body is inherently able to heal itself, sometimes with a little help.
 
@@ -8,7 +8,7 @@ We believe in preventative medicine. Conventional (MD) training focuses on the o
 
 Psychiatry has traditionally been based on symptoms. Researchers study many patients with the same illness to identify a list of common symptoms, then use that list as diagnostic criteria for each mental illness. These lists don't account for where an illness originates, and the same symptoms can arise from many different underlying causes. Emerging research suggests that some mental illness may be linked to hormonal imbalances, genetic factors, or nutrient deficiencies, and that conventional psychiatric treatment can address symptoms without addressing the underlying cause. Other medical conditions, including certain infections, can also produce psychiatric symptoms.
 
-Dr. Stone believes in finding the root cause of psychiatric symptoms and addressing it directly, with the long term goal of restoring the brain to optimal health. Many conventional approaches focus on managing symptoms with medication indefinitely. Masking symptoms so the brain can function is not the same as resolving why those symptoms exist in the first place. Our goal is to help your brain work at its full potential.
+Dr. Stone believes in finding the root causes of psychiatric symptoms and addressing them directly, with the long term goal of restoring the brain to optimal health. Many conventional approaches focus on managing symptoms with medication indefinitely. Masking symptoms so the brain can function is not the same as resolving why those symptoms exist in the first place. Our goal is to help your brain work at its full potential.
 
 While medication may be needed initially for stabilization, our overall goal is to help the brain regulate its own chemistry, so patients can move toward the smallest effective dose or, when appropriate, no medication at all.
 
