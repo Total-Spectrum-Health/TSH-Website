@@ -1,4 +1,4 @@
-# THS Home Content
+# TSH Home Content
 
 Dr. Stone, formerly Dr. Blanchard, is an Integrative Psychiatrist. She is a nontraditional psychiatrist who is a medical doctor first and then a psychiatrist, for children, adolescent and adults.
 
