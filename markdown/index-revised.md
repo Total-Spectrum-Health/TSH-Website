@@ -1,8 +1,8 @@
 # TSH Home Content — Revised
 
-Dr. Stone, formerly Dr. Blanchard, is an integrative psychiatrist. Her approach is nontraditional: she practices first as a medical doctor and second as a psychiatrist, caring for children, adolescents, and adults. This means she takes into consideration the entire health of a patient first, not just the psychiatric symptoms, and then provides the best possible treatment for the patient's overall health and mental well-being.
+Dr. Stone, formerly Dr. Blanchard, is an integrative psychiatrist. Her approach is nontraditional: she practices first as a medical doctor and second as a psychiatrist, treating children, adolescents, and adults. This means she takes into consideration the entire health of a patient first, not just the psychiatric symptoms, and then provides the best possible treatment for the patient's overall health and mental well-being.
 
-Dr. Stone is a DO (Doctor of Osteopathic Medicine). This degree requires additional training beyond an MD (Doctor of Allopathic Medicine), including more hands on training during medical school and an extra year of general medicine practice after graduation. DOs also hold a different philosophy than MDs: that the body is inherently able to heal itself, sometimes with a little help.
+Dr. Stone is a double board-certified DO (Doctor of Osteopathic Medicine). This degree requires additional training beyond an MD (Doctor of Allopathic Medicine), including more hands on training during medical school and an extra year of general medicine practice after graduation. DOs also hold a different philosophy than MDs: that the body is inherently able to heal itself, sometimes with a little help.
 
 We believe in preventative medicine. Conventional (MD) training focuses on the organs, their illnesses, and treating those illnesses after the fact. Our training also covers how illness in one part of the body affects other areas, and how the body's connective tissues interact and influence overall health. We have extra training in alternative approaches to preventing, treating, and maintaining health, including the use of vitamins and supplements. Our goal is whole body wellness.
 
