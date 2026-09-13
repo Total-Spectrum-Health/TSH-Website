@@ -44,6 +44,12 @@ body {
   background: var(--color-bg);
 }
 
+body.error-body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .site-header {
   display: flex;
   flex-wrap: wrap;
@@ -302,6 +308,53 @@ body {
   font-size: 1.05rem;
   color: var(--color-muted);
   margin: 0;
+}
+
+.page-hero .hero-actions {
+  justify-content: center;
+  margin-top: 1.75rem;
+}
+
+/* 404 / error page */
+
+.error-page {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1.5rem;
+}
+
+.error-page .inner {
+  max-width: 32rem;
+  text-align: center;
+}
+
+.error-code {
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0 0 0.5rem;
+  color: var(--color-coral-600);
+  background: var(--gradient-sunrise);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.error-page h1 {
+  font-size: 1.75rem;
+  color: var(--color-navy-900);
+  margin: 0 0 0.75rem;
+}
+
+.error-page p {
+  color: var(--color-muted);
+  margin: 0 0 1.75rem;
+}
+
+.error-page .hero-actions {
+  justify-content: center;
 }
 
 /* Contact page */
